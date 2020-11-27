@@ -1,0 +1,162 @@
+/* Navigation section */
+.header {
+  background-color: #aa4a30;
+  padding: 0 6rem 20rem;
+  color: #fff;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #aa4a30;
+
+}
+.navbar {
+  text-align: right;
+}
+.nav-item {
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+
+}
+
+/*Header section*/
+.header-section {
+  font-size: 2rem;
+}
+
+.header-text {
+  text-align: left;
+  margin-top: 4rem;
+}
+
+
+
+/*Payments section*/
+#payments {
+  padding: 6rem 3rem 6rem ;
+  background-color: #fff;
+}
+
+.card {
+  width : 15rem;
+  float :left;
+  margin: 30px;
+  transition: transform .1s;
+  background-color: #fff;
+  color: #aa4a30;
+  }
+
+.card : hover {
+  transform: scale(0.5);
+}
+
+.card-body {
+  margin:0;
+  text-align: center;
+  padding: 1rem 2.5rem 0.5rem;
+
+}
+
+/*Locations available*/
+
+.container {
+  position: relative;
+  width: 30%;
+}
+.image1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align:center;
+}
+
+.container:hover .image1 {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #aa4a30;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/*Reviews section*/
+
+.review-section {
+  background-color: #fbf7f0;
+  padding: 30px;
+  text-align: center;
+  color: ##aa4a30;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+
+
+}
+
+
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+/*Downloading apps section*/
+.downloads {
+  background-color: #d57149;
+  padding: 12rem 4rem ;
+
+}
+.download-text {
+
+color: #fff;
+text-align: left;
+}
+
+.download-button {
+  margin: 3% 3% 5% 0;
+}
+
+/*Footer section*/
+.endofwebsite {
+  background-color: #fff;
+  text-align: center;
+  color: #bbbfca;
+}
+
+.footer-icon {
+  margin: 10px 20px;
+}
+
+.footer-text {
+  padding-top: 2rem;
+}
+.copyright-text {
+  padding-bottom: 2rem;
+}
